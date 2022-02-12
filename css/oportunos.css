@@ -1,0 +1,41 @@
+.error {
+  border: 2px dashed;
+  margin: 2rem 2rem 0 2rem;
+  padding: 2rem;
+  background-color: rgb(204, 26, 26);
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.resultado {
+  border: 2px dashed;
+  margin: 2rem 2rem 0 2rem;
+  padding: 2rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  /* text-transform: uppercase; */
+  background-color: #169157;
+  color: #fff;
+}
+
+.code_img {
+  width: 90%;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.show_img {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+.ocultar {
+  display: none;
+}

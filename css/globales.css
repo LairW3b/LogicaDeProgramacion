@@ -1,0 +1,11 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *::before, *::after {
+  box-sizing: inherit; /*que hacen estas propiedades*/
+}
+body {
+  font-family: 'Shadows Into Light', cursive; 
+  font-size: 2.3rem;
+}

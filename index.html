@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/cerebro2.png" type="image/x-icon">
+  <!-- estilos -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/globales.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/oportunos.css">
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <title>Lógica de Programación</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="content_titulo">
+      <img class="cerebro" src="./img/logica.jpg" alt="cerebro con lentes">
+      <h1>Lógica de Programación</h1>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="acercade.html">Acerca de</a>
+    </nav>
+    
+  </header>
+  <hr/>
+  <!-- Inicio SECCION-UNO -->
+  <div class="seccion">
+    <h2 class="subtitulo">Ejercicio 
+      <span>UNO</span>
+    </h2>
+
+    <p class="p_ejercicio">
+      Leer un número entero de dos dígitos y determinar a cuánto equivale la suma de sus dígitos. 
+    </p>
+
+    <div class="content_form">
+      <form class="form" id="form">
+        <label class="label" for="numero">Ingresa un número:</label>
+        <input id="num" type="number" class="input">
+        <button 
+          id="btn_submit"
+          class="btn_form" 
+          type="submit"
+          onclick="validar()"
+        >
+          Submit
+        </button>
+      </form>
+      <!-- Muestro Resultado -->
+      <div id="resul" ></div>
+      <!-- Fin resultado -->
+    </div>
+    <!-- Fin FORM content -->
+    <img class="noImg" id="img_code" src="./img/ejeUno.png" alt="">
+  </div>
+  <!-- Fin SECCION -->
+
+   <!-- Inicio SECCION-DOS -->
+  <div class="seccion">
+    <h2 class="subtitulo">Ejercicio 
+      <span>DOS</span>
+    </h2>
+
+    <p class="p_ejercicio">
+      Leer un número entero de dos dígitos y determinar si ambos dígitos son pares. 
+    </p>
+
+    <div class="content_form">
+      <form class="form">
+        <label class="label" for="numero">Ingresa un número:</label>
+        <input id="dos" type="number" class="input">
+        <button 
+          id="btn_submit_dos"
+          class="btn_form" 
+          type="submit"
+          onclick="numerosEnteros()"
+        >
+          Submit
+        </button>
+      </form>
+      <!-- Resultado -->
+      <div id="resul_dos" ></div>
+      <!-- Fin resultado -->
+    </div>
+    <!-- Fin FORM content -->
+    <img class="noImg" id="img_code" src="./img/ejeUno.png" alt="">
+  </div>
+  <!-- Fin SECCION-DOS -->
+  <script src="./js/uno.js"></script>
+  <script src="./js/dos.js"></script>
+</body>
+</html>
