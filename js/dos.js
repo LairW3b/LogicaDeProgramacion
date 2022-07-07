@@ -1,8 +1,8 @@
-const numerosEnteros = () => {
+function numerosEnteros() {
   addEventListener("click", (e) => {
     e.preventDefault()
   })
-  
+
   let num = document.querySelector('#dos').value
   let mostrar = document.querySelector('#resul_dos')
   let nd = 0
@@ -23,13 +23,12 @@ const numerosEnteros = () => {
   if (Math.trunc(op1) % 2 === 0
     &&
     Math.trunc(op2) % 2 === 0) {
-      mostrar.className = 'resultado'
-      mostrar.innerHTML = 'Los dígitos son pares'
+    mostrar.className = 'resultado'
+    mostrar.innerHTML = 'Los dígitos son pares'
   } else {
     mostrar.className = 'error'
     mostrar.innerHTML = 'Uno o ambos numeros son impar'
-    setTimeout(()=> mostrar.className= 'ocultar', 2000)
+    setTimeout(() => mostrar.className = 'ocultar', 2000)
   }
 
 }
-// numerosEnteros()
